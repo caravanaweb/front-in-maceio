@@ -1900,7 +1900,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 30px;
   margin: 0 0 12px;
   color: #fff;
-  font-weight: 300px;
+  font-weight: 300;
 }
 .contacts-4 p {
   font-size: 16px;
@@ -1954,7 +1954,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   top: -100%;
 }
 .contacts-4 .links {
-  margin: 35px 0 0;
+  margin: 35px 0;
   font-size: 47px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -1970,6 +1970,15 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .contacts-4 .links a.active {
   color: #10b18f;
 }
+
+.partners {
+  margin-top: 35px;
+}
+.partners li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
 @media (max-width: 480px) {
   .contacts-4 .links a {
     font-size: 26px;
