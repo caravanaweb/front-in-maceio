@@ -2084,8 +2084,12 @@ svg,
 }
 
 @media (max-width: 480px) {
-  #speaker-iago-barbosa > .number {
-    background-image: url("/startup/common-files/img/crew/iago-barbosa.jpg");
+  #speaker-iago-barboza > .number {
+    background-image: url("/startup/common-files/img/crew/iago-barboza.jpg");
+  }
+
+  #speaker-rodolfo-dias > .number {
+    background-image: url("/startup/common-files/img/crew/rodolfo-dias.jpg");
   }
 
   #speaker-juarez-filho > .number {
@@ -2113,8 +2117,12 @@ svg,
   }
 }
 
-  #speaker-iago-barbosa.active > .number {
-    background-image: url("/startup/common-files/img/crew/iago-barbosa.jpg");
+  #speaker-iago-barboza.active > .number {
+    background-image: url("/startup/common-files/img/crew/iago-barboza.jpg");
+  }
+
+  #speaker-rodolfo-dias.active > .number {
+    background-image: url("/startup/common-files/img/crew/rodolfo-dias.jpg");
   }
 
   #speaker-juarez-filho.active > .number {
