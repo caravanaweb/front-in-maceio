@@ -1004,21 +1004,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
   overflow: hidden;
 }
-.header-12-sub:after {
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  border: 14px solid white;
-  border-left-color: #fff55b;
-  border-top-color: #fff55b;
-  z-index: 3;
-}
+
 .header-12-sub .row {
   float: left;
 }
 .header-12-sub .hero-unit {
-  margin: 260px 0 0;
+  margin: 220px 0 0;
   padding: 0;
   background: transparent;
 }
@@ -1031,12 +1022,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   line-height: 40px;
 }
 .header-12-sub .hero-unit p {
+  color: rgba(255, 255, 255, 0.85);
   font-size: 18px;
   font-weight: normal;
-  color: rgba(255, 255, 255, 0.7);
+  line-height: 140%;
+  margin-bottom: 3.5rem;
 }
 .header-12-sub .background {
-  background-image: url("../../startup/common-files/img/pexels-photo-287748.jpg");
+  background-image: url("../../startup/common-files/img/frontmcz17.jpg");
   opacity: 30;
   filter: alpha(opacity=3000);
   opacity: 0.3;
@@ -2147,4 +2140,8 @@ svg,
 
   #speaker-djanilson-alves.active > .number {
     background-image: url("/startup/common-files/img/crew/djanilson-alves.jpg");
+  }
+
+  #fireside-chat.active > .number {
+    background-image: url("/startup/common-files/img/crew/fireside-chat.jpg");
   }
